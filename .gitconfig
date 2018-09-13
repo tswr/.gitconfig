@@ -1,0 +1,20 @@
+[core]
+	editor = vim
+	precomposeunicode = true
+	quotepath = false
+	eol = lf
+	autocrlf = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	lp = log -p
+	dt = difftool
+	df = diff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
