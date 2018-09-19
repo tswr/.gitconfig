@@ -15,6 +15,7 @@ git config --global alias.last 'log -1 HEAD'
 git config --global alias.lp 'log -p'
 git config --global alias.dt difftool
 git config --global alias.df diff
+git config --global alias.slog 'log --pretty=format:"%h  %ad  %s  (%an)" --date=relative'
 
 git config --global diff.tool vimdiff
 git config --global difftool.prompt false
