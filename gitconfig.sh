@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git config --global core.editor vim
+git config --global core.editor nvim
 git config --global core.precomposeunicode true
 git config --global core.quotepath false
 git config --global core.eol lf
@@ -17,5 +17,5 @@ git config --global alias.dt difftool
 git config --global alias.df diff
 git config --global alias.slog 'log --pretty=format:"%h  %ad  %s  (%an)" --date=relative'
 
-git config --global diff.tool vimdiff
+git config --global diff.tool 'nvim -d'
 git config --global difftool.prompt false
